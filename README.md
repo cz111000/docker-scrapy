@@ -4,7 +4,7 @@ In a fast, simple, yet extensible way.
 
 See [scrapy][scrapy-home] official page and the official [documentation][scrapy-docs] for more details.
 
-[![](https://badge.imagelayers.io/aciobanu/scrapy:latest.svg)](https://imagelayers.io/?images=aciobanu/scrapy:latest 'Get your own badge on imagelayers.io')
+![Docker Image CI](https://github.com/cz111000/docker-scrapy/workflows/Docker%20Image%20CI/badge.svg)
 
 # Usage
 For a list of [scrapy][scrapy-home] commands, simply run:
