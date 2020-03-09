@@ -1,20 +1,21 @@
 FROM alpine:latest
 
 RUN apk -U add \
+        python3 \
         gcc \
         libffi-dev \
         libxml2-dev \
         libxslt-dev \
         musl-dev \
-        openssl-dev \
-        python-dev \
-        py-imaging \
-        py-pip \
+        libressl-dev \
+        python3-dev \
+        py3-pillow \
+        py3-pip \
         curl ca-certificates \
     && update-ca-certificates \
     && rm -rf /var/cache/apk/* \
-    && pip install --upgrade pip \
-    && pip install Scrapy
+    && pip3 install --upgrade pip \
+    && pip3 install pillow scrapy
 
 WORKDIR /runtime/app
 
