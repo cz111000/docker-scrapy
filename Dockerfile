@@ -6,15 +6,15 @@ RUN apk -U add \
         libxml2-dev \
         libxslt-dev \
         musl-dev \
-        openssl-dev \
+        libressl-dev \
         python-dev \
-        py-imaging \
+        py-pillow \
         py-pip \
         curl ca-certificates \
     && update-ca-certificates \
     && rm -rf /var/cache/apk/* \
     && pip install --upgrade pip \
-    && pip install Scrapy
+    && pip install pillow scrapy
 
 WORKDIR /runtime/app
 
