@@ -5,6 +5,7 @@ In a fast, simple, yet extensible way.
 See [scrapy][scrapy-home] official page and the official [documentation][scrapy-docs] for more details.
 
 ![Docker Image CI](https://github.com/cz111000/docker-scrapy/workflows/Docker%20Image%20CI/badge.svg?branch=master)
+![python 3.x](https://img.shields.io/badge/python-3.x-blue.svg?style=flat&logo=python)
 
 # Usage
 For a list of [scrapy][scrapy-home] commands, simply run:
