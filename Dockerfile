@@ -14,8 +14,8 @@ RUN apk -U add \
         curl ca-certificates \
     && update-ca-certificates \
     && rm -rf /var/cache/apk/* \
-    && pip3 install --upgrade pip \
-    && pip3 install pillow scrapy
+    && pip3 install --no-cache-dir --upgrade pip \
+    && pip3 install --no-cache-dir pillow scrapy
 
 WORKDIR /runtime/app
 
