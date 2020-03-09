@@ -28,7 +28,7 @@ Continue reading the official [tutorial][scrapy-tutorial] for a more in depth us
 
 
 [scrapy-home]: http://scrapy.org/
-[scrapy-docs]: http://doc.scrapy.org/en/1.0/
-[scrapy-tutorial]: http://doc.scrapy.org/en/1.0/intro/tutorial.html
+[scrapy-docs]: http://doc.scrapy.org/en/latest/
+[scrapy-tutorial]: http://doc.scrapy.org/en/latest/intro/tutorial.html
 [docker-home]: https://www.docker.com/
 [docker-docs]: https://docs.docker.com/
